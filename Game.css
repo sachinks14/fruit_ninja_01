@@ -181,6 +181,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* Reset button fix */
+    position: relative;
+    z-index: 10;
 }
 #hh{
     font-weight: 700px;
